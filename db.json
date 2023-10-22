@@ -1,0 +1,54 @@
+{
+  "categories": [
+    {
+      "id": "fitness",
+      "title": "Fitness",
+      "image": "/images/fitness-0.jpg"
+    },
+    {
+      "id": "nutrition",
+      "title": "Nutrition",
+      "image": "/images/nutrition-0.jpg"
+    },
+    {
+      "id": "mental-health",
+      "title": "Mental Health",
+      "image": "/images/mental-health-0.jpg"
+    },
+    {
+      "id": "men-health",
+      "title": "Men Health",
+      "image": "/images/men-health-0.jpg"
+    },
+    {
+      "id": "women-health",
+      "title": "Women Health",
+      "image": "/images/women-health-0.jpg"
+    },
+    {
+      "id": "child-health",
+      "title": "Child Health",
+      "image": "/images/child-health-0.jpg"
+    },
+    {
+      "id": "senior-health",
+      "title": "Senior Health",
+      "image": "/images/senior-health-0.jpg"
+    },
+    {
+      "id": "disease-management",
+      "title": "Disease Management",
+      "image": "/images/disease-management-0.jpg"
+    },
+    {
+      "id": "alternative-medicine",
+      "title": "Alternative Medicine",
+      "image": "/images/alternative-medicine-0.jpg"
+    },
+    {
+      "id": "first-aid",
+      "title": "First Aid",
+      "image": "/images/first-aid-0.jpg"
+    }
+  ]
+}

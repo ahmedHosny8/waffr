@@ -1,27 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --color-brand-1: #6a247d;
+  --color-brand-2: #eed24b;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+/* CarouselQuotes Style Start ######################################################## */
+
+.carouselQuotes {
+  height: 544px;
+  width: 100%;
 }
+
+.carouselQuotes .swiper {
+  width: 100%;
+  height: 100%;
+  /* background-color: green; */
+}
+
+.carouselQuotes .swiper-slide {
+  /* background-color: yellow; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carouselQuotes .swiper-pagination-bullet {
+  width: 32px;
+  height: 4px;
+  border-radius: 9999px;
+}
+
+.carouselQuotes .swiper-pagination-bullet-active {
+  background-color: var(--color-brand-1);
+}
+
+.carouselQuotes .swiper-button-prev {
+  border: 2px solid var(--color-brand-1);
+  padding: 1.5rem;
+  border-radius: 9999px;
+}
+
+.carouselQuotes .swiper-button-prev::after {
+  content: url('/svg/arrow-left.svg');
+  margin-top: -8px;
+}
+
+.carouselQuotes .swiper-button-next {
+  border: 2px solid var(--color-brand-1);
+  padding: 1.5rem;
+  border-radius: 9999px;
+}
+
+.carouselQuotes .swiper-button-next::after {
+  content: url('/svg/arrow-right.svg');
+  margin-top: -8px;
+}
+
+/* CarouselQuotes Style End ########################################################## */
